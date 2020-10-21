@@ -302,6 +302,9 @@ body {
   .sidebar-navigation .social-icons li a:hover {
     color: #45489a;
   }
+
+
+  /* Home Page */
   
   .item .image {
     width: 100%;
@@ -328,4 +331,30 @@ body {
       100% {-webkit-transform: scale(1.2);}
   }
   
-  .Modern-Slider {background:transparent;}
+  .info {
+    text-align: right;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    right: 10%;
+    left: 60%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline-block;
+  }
+  .info h1 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .info p {
+    font-size: 15px;
+    color: #fff;
+  }
