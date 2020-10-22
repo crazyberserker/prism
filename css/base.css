@@ -3,7 +3,7 @@ body {
   }
   
   p {
-    font-size: 13px;
+    font-size: 15px;
     color: #7a7a7a;
     line-height: 24px;
   }
@@ -422,19 +422,31 @@ body {
   display: inline-block;
   position: relative;
   
+  
 }
 
-#project .item {
+#project .section-content{
   text-align: left;
-  position: relative;
-  z-index: 10;
+  text-align: justify;
+ 
 }
 
-#project .item .image {
-  position: relative;
+#project .column {
+  float: left;
+  width: 50%;
+  margin-right: 5%;
 }
 
-#project .item .image img {
-  width: 100%;
-  overflow: hidden;
+/* Clearfix (clear floats) */
+#project .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+ #project .column {
+    width: 100%;
+  }
 }
