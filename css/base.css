@@ -146,6 +146,11 @@ body {
     font-weight: 300;
   }
   
+  .sidebar-navigation .logo .image {
+
+    width: 75%;
+    margin-bottom:4%;
+  }
   .sidebar-navigation nav {
     position: relative;
     top: 60%;
@@ -235,7 +240,7 @@ body {
   }
   
   .social-icons li a {
-    font-size: 18px;
+    font-size: 200%;
     color: #fff;
     transition: all 0.5s;
   }
