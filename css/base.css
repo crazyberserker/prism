@@ -303,3 +303,11 @@ body {
     font-size: 15px;
     color: #fff;
   }
+  .info .white-button {
+    margin-top: 30px;
+  }
+  
+  .info .white-button a:focus {
+    outline: none;
+  }
+  
