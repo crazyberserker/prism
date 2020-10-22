@@ -549,6 +549,11 @@ body {
   margin-bottom: 20%;
 }
 
+#team .card-subtitle_plus3
+{
+  margin-bottom: 19%;
+}
+
 #team .card-body {
   position: relative;
   bottom: 35px;
