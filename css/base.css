@@ -483,6 +483,13 @@ body {
   
 }
 
+#project .expli{
+  width: 70%;
+  margin-top: 3%;
+  margin-left: 15%;
+
+}
+
 #project .section-content{
   text-align: left;
   text-align: justify;
@@ -515,11 +522,6 @@ body {
     
 }
 
-
-#project .phone{
-  margin-top: 10%;
-  margin-bottom: 20%;
-}
 
 #project .wow{
   margin-top: 15%;
@@ -644,6 +646,23 @@ body {
   cursor: pointer;
   overflow: hidden;
 }
+
+
+
+#video .computer{
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+#video .wow2 .section-heading{
+  text-align: left;
+  margin-top: 20%;
+}
+
+#video .section-content{
+  text-align: left;
+  margin-bottom: 20%;
+}
+
 
 .box-video .bg-video{
   position: absolute;
@@ -820,6 +839,7 @@ body {
   display: inline-block;
   text-align: center;
   width: 100%;
+  margin-left: 0;
 }
 
 .footer p {
