@@ -530,8 +530,7 @@ body {
 }
 
 #project .random{
-  margin-top: 5%;
-  
+  margin-top: 10%;
 }
 
 .random em{
@@ -655,7 +654,7 @@ body {
 }
 #video .wow2 .section-heading{
   text-align: left;
-  margin-top: 20%;
+  margin-top: 20%; 
 }
 
 #video .section-content{
