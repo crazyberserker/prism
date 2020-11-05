@@ -709,7 +709,33 @@ body {
   transition: all .6s .8s;
 }
 
+/* Promotion part*/
 
+#promo .section-heading {
+  margin-left: 5%;
+}
+
+#promo .title {
+  font-size: 30%;
+  font-weight: 100;
+}
+
+
+/* scan me*/
+#promo .scan-me-text{
+  text-align: left;
+  margin-bottom: 20%;
+  margin-left: 6%;
+
+}
+
+#promo .scan-me{
+ 
+  width: 50%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+
+}
 
 
 /* Responsive Style */
