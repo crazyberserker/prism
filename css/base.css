@@ -495,6 +495,51 @@ body {
   margin-right: 5%;
 }
 
+#project .bg-skin{
+    background: #997300;
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+    width: 1.6em;
+    height: 1.6em;
+    text-align: center;
+    line-height: 1.6em;
+  
+}
+
+#project h5{
+  line-height: 1em;
+  padding-top: 10px;
+  vertical-align: middle;
+  font-size: 24px;
+    
+}
+
+
+#project .phone{
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+#project .wow{
+  margin-top: 15%;
+  margin-bottom: 20%;
+  text-align: left;
+}
+
+#project .random{
+  margin-top: 5%;
+  
+}
+
+.random em{
+    font-style: normal;
+    font-weight: 700;
+    color:  #997300;
+  
+}
+
+
 /* Team Style */
 
 #team {
